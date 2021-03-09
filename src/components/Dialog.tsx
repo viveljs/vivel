@@ -1,5 +1,6 @@
 import { FC } from 'react';
 import { Box, Center, Text } from '@chakra-ui/react';
+import Options from './Options';
 
 const Dialog: FC = ({ children }) => {
   return (
@@ -15,6 +16,7 @@ const Dialog: FC = ({ children }) => {
           est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
           {children}
         </Text>
+        <Options />
       </Box>
     </Center>
   );
