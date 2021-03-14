@@ -22,7 +22,9 @@
       "@comp/*": ["src/components/*"],
       "@lib/*": ["src/libs/*"],
       "@img/*": ["src/assets/images/*"],
-      "@conf": ["config/index.ts"]
+      "@conf": ["config/index.ts"],
+      "@styl/*": ["src/assets/styles/*"],
+      "@snd/*":["src/assets/sounds/*"]
     }
   },
   "include": [

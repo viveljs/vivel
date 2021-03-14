@@ -2,7 +2,7 @@ import { Flex, Button } from '@chakra-ui/react';
 
 const Options = () => {
   return (
-    <Flex>
+    <Flex px="3" py="2">
       <Button>aaa</Button>
     </Flex>
   );
