@@ -1,0 +1,31 @@
+{
+  "name": "@vivel/scene",
+  "version": "0.1.0",
+  "description": "Scene Component for Vivel",
+  "keywords": [
+    "visualnovel"
+  ],
+  "author": "Muhammad Tsany Qudsi <tsanyqudsi@gmail.com>",
+  "homepage": "https://github.com/vivel-engine/vivel#readme",
+  "license": "MIT",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivel-engine/vivel.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/vivel-engine/vivel/issues"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "Demo for Vivel",
+  "author": "Muhammad Tsany Qudsi <tsanyqudsi@gmail.com>",
+  "homepage": "https://github.com/vivel-engine/vivel#readme",
+  "license": "MIT",
+  "main": "src/index.tsx",
+  "directories": {
+    "src": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivel-engine/vivel.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "dev": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "bugs": {
+    "url": "https://github.com/vivel-engine/vivel/issues"
+  },
+  "devDependencies": {
+    "snowpack": "^3.1.2"
+  }
+}
