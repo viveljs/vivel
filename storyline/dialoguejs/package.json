@@ -1,0 +1,28 @@
+{
+  "name": "dialoguejs",
+  "version": "0.1.0",
+  "description": "Dialogue Parser",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx nearleyc ./grammars/index.ne -o ./src/grammar.ts",
+    "start": "npx --yes ts-node ./src/index.ts"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/nearley": "^2.11.1",
+    "@types/node": "^15.12.1",
+    "@types/yargs": "^17.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.26.0",
+    "@typescript-eslint/parser": "^4.26.0",
+    "eslint": "^7.28.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "fast-glob": "^3.2.5",
+    "yargs": "^17.0.1"
+  },
+  "dependencies": {
+    "nearley": "^2.20.1"
+  }
+}

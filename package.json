@@ -1,0 +1,24 @@
+{
+  "name": "viveljs",
+  "author": {
+    "name": "Muhammad Tsany Qudsi",
+    "email": "tsanyqudsi@gmail.com"
+  },
+  "license": "MIT",
+  "description": "Engine for creating Visual Novel using Typescript",
+  "keywords": [
+    "visualnovel"
+  ],
+  "workspaces": [
+    "./components/*",
+    "./examples/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viveljs/vivel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/viveljs/vivel/issues"
+  },
+  "homepage": "https://viveljs.github.io/vivel"
+}
