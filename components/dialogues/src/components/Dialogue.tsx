@@ -3,16 +3,20 @@ import * as React from 'react';
 import { WindupChildren, Pace } from 'windups';
 import { lineIndexAtom, lineAtom } from '../store';
 import { Buttons } from './Buttons';
-import styles from '../assets/box.module.css';
 
 const Dialogue = () => {
   const [lineIndex] = useAtom(lineIndexAtom);
   const [lines] = useAtom(lineAtom);
 
+  const lineWrapper: React.CSSProperties = {
+    minHeight: '5em',
+    padding: 0,
+  };
+
   if (lines)
     return (
       <WindupChildren>
-        <p className={styles.lineWrapper}>
+        <p style={lineWrapper}>
           <Pace ms={9}>{lines[lineIndex]}</Pace>
         </p>
         <Buttons />
