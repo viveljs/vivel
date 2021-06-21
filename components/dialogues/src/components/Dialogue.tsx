@@ -1,25 +1,26 @@
-import { useAtom } from 'jotai';
 import * as React from 'react';
+import { useAtom } from 'jotai';
 import { WindupChildren, Pace } from 'windups';
 import { lineIndexAtom, lineAtom } from '../store';
 import { Buttons } from './Buttons';
+import { CharacterNames } from './CharacterNames';
+
+import '@styles/default.css';
 
 const Dialogue = () => {
   const [lineIndex] = useAtom(lineIndexAtom);
   const [lines] = useAtom(lineAtom);
 
-  const lineWrapper: React.CSSProperties = {
-    minHeight: '5em',
-    padding: 0,
-  };
-
   if (lines)
     return (
       <WindupChildren>
-        <p style={lineWrapper}>
+        <div className="detailWrapper">
+          <CharacterNames />
+          <Buttons />
+        </div>
+        <p className="dialogueWrapper">
           <Pace ms={9}>{lines[lineIndex]}</Pace>
         </p>
-        <Buttons />
       </WindupChildren>
     );
   return <div>aa</div>;

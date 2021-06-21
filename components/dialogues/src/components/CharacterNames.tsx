@@ -7,7 +7,7 @@ const CharacterNames = () => {
 
   if (characters)
     return (
-      <div>
+      <div className="characterName">
         {/* a bit of hackish solution */}
         {characters.map((x, index) => {
           if (characters.length == 1) return x;

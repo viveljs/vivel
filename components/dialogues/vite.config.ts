@@ -3,6 +3,7 @@ import { defineConfig } from 'vite';
 import reactRefresh from '@vitejs/plugin-react-refresh';
 import dts from 'vite-plugin-dts';
 import eslintPlugin from 'vite-plugin-eslint';
+import { ViteAliases as viteAliases } from 'vite-aliases';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -37,5 +38,6 @@ export default defineConfig({
     eslintPlugin({
       exclude: ['node_modules', '/@react-refresh', 'dist'],
     }),
+    viteAliases({ depth: 2 })
   ],
 });
