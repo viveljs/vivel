@@ -1,24 +1,45 @@
 {
-  "name": "viveljs",
-  "author": {
-    "name": "Muhammad Tsany Qudsi",
-    "email": "tsanyqudsi@gmail.com"
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
   },
-  "license": "MIT",
-  "description": "Engine for creating Visual Novel using Typescript",
-  "keywords": [
-    "visualnovel"
-  ],
-  "workspaces": [
-    "./components/*",
-    "./examples/*"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/viveljs/vivel.git"
+  "dependencies": {
+    "capitalize": "^2.0.3",
+    "jotai": "^1.2.2",
+    "lodash": "^4.17.21",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-hook-form": "^7.11.1",
+    "react-howler": "^5.2.0",
+    "react-icons": "^4.2.0",
+    "react-image": "^4.0.3",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.3",
+    "use-sound": "^4.0.1",
+    "windups": "^1.1.9"
   },
-  "bugs": {
-    "url": "https://github.com/viveljs/vivel/issues"
-  },
-  "homepage": "https://viveljs.github.io/vivel"
+  "devDependencies": {
+    "@types/capitalize": "^2.0.0",
+    "@types/howler": "2.1.2",
+    "@types/lodash": "^4.14.171",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-howler": "^3.7.3",
+    "@typescript-eslint/eslint-plugin": "^4.28.4",
+    "@typescript-eslint/parser": "^4.28.4",
+    "@vitejs/plugin-react-refresh": "^1.3.1",
+    "eslint": "^7.30.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.2",
+    "vite": "^2.4.3",
+    "vite-aliases": "^0.8.3",
+    "vite-plugin-pwa": "^0.8.1",
+    "vite-plugin-windicss": "^1.2.5"
+  }
 }

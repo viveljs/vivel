@@ -1,0 +1,22 @@
+.wrapper {
+  @apply w-7/8 fixed bottom-0 flex flex-col items-center;
+}
+
+.top {
+  @apply w-full flex justify-between items-end;
+}
+
+.name {
+  @apply font-bold text-gray-700;
+  @apply px-5 mb-2 py-1;
+  @apply rounded bg-gray-200;
+}
+
+.response {
+  @apply mb-2;
+}
+
+.dialogue {
+  @apply rounded-md px-5 py-3 mb-10 w-full flex min-h-25 items-start;
+  @apply border-2 border-gray-300 bg-green-900 bg-opacity-80 border-solid text-gray-200;
+}

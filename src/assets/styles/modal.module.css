@@ -1,0 +1,7 @@
+.background {
+  @apply flex bg-dark-700 opacity-50 absolute w-full h-screen items-center justify-center;
+}
+
+.modal {
+  @apply rounded shadow flex flex-col items-center justify-center;
+}

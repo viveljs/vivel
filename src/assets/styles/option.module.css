@@ -1,0 +1,14 @@
+
+.optionFlex {
+  @apply flex flex-col lg:flex-row items-center justify-center;
+  @apply space-x-0 space-y-2 lg:space-y-0 lg:space-x-2;
+  @apply shadow bg-light-50 px-3 py-2 rounded;
+}
+
+.optionGrid {
+  @apply grid grid-cols-1 lg:grid-cols-2 gap-2 bg-light-50 px-3 py-2 rounded;
+}
+
+.button {
+  @apply w-auto;
+}

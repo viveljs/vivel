@@ -1,0 +1,12 @@
+button {
+  @apply px-2 py-2 w-50 border border-solid rounded text-sm;
+  @apply text-gray-500 bg-white font-semibold;
+}
+
+button:hover {
+  @apply bg-green-200 text-gray-700;
+}
+
+button:focus {
+  @apply outline-transparent;
+}

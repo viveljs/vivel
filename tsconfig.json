@@ -1,0 +1,78 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "lib": [
+            "DOM",
+            "DOM.Iterable",
+            "ESNext"
+        ],
+        "allowJs": false,
+        "skipLibCheck": false,
+        "esModuleInterop": false,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "types": [
+            "vite/client"
+        ],
+        "typeRoots": [
+            "./src/*.d.ts"
+        ],
+        "jsx": "react",
+        "paths": {
+            "@src/*": [
+                "/home/tsanyqudsi/Documents/vivel-tutorial/src"
+            ],
+            "@api/*": [
+                "/home/tsanyqudsi/Documents/vivel-tutorial/src/api"
+            ],
+            "@assets/*": [
+                "/home/tsanyqudsi/Documents/vivel-tutorial/src/assets"
+            ],
+            "@components/*": [
+                "/home/tsanyqudsi/Documents/vivel-tutorial/src/components"
+            ],
+            "@scenes/*": [
+                "/home/tsanyqudsi/Documents/vivel-tutorial/src/scenes"
+            ],
+            "@stores/*": [
+                "/home/tsanyqudsi/Documents/vivel-tutorial/src/stores"
+            ],
+            "@backgrounds/*": [
+                "/home/tsanyqudsi/Documents/vivel-tutorial/src/api/backgrounds"
+            ],
+            "@characters/*": [
+                "/home/tsanyqudsi/Documents/vivel-tutorial/src/api/characters"
+            ],
+            "@apiComponents/*": [
+                "/home/tsanyqudsi/Documents/vivel-tutorial/src/api/components"
+            ],
+            "@sounds/*": [
+                "/home/tsanyqudsi/Documents/vivel-tutorial/src/api/sounds"
+            ],
+            "@images/*": [
+                "/home/tsanyqudsi/Documents/github/tutorial/src/assets/images"
+            ],
+            "@sfx/*": [
+                "/home/tsanyqudsi/Documents/vivel-tutorial/src/assets/sfx"
+            ],
+            "@styles/*": [
+                "/home/tsanyqudsi/Documents/vivel-tutorial/src/assets/styles"
+            ],
+            "@atoms/*": [
+                "/home/tsanyqudsi/Documents/vivel-tutorial/src/components/atoms"
+            ],
+            "@lib/*": [
+                "/home/tsanyqudsi/Documents/vivel-tutorial/src/lib"
+            ]
+        }
+    },
+    "include": [
+        "./src"
+    ]
+}

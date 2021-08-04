@@ -1,0 +1,7 @@
+.wrapper {
+  @apply flex justify-between w-7/8 py-2 fixed top-0;
+}
+
+.button {
+  @apply text-5xl rounded-full bg-green-700 p-2 text-gray-200 cursor-pointer;
+}

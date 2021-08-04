@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@700&display=swap');
+
+.wrapper {
+  @apply items-center justify-center;
+  font-family: 'Red Rose';
+}
+
+.title {
+  @apply font-bold lg:text-9xl text-6xl text-center;
+}
+
+.subtitle {
+  @apply font-semibold text-4xl mb-4;
+}
